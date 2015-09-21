@@ -1,0 +1,6 @@
+import scipy
+from scipy import pi
+
+n = raw_import('How many digits would you like? :  >  ')
+n = int(float(n))
+print '%.*f' % (n, pi)
