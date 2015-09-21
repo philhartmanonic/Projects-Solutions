@@ -1,0 +1,7 @@
+import scipy
+from scipy import e
+
+n = raw_input('How many digits? >  ')
+n = int(float(n))
+
+print '%.*f' % (n, e)
